@@ -1,0 +1,43 @@
+{
+  "name": "rukkit",
+  "version": "1.0.0",
+  "description": "One warm, editorial CSS library. Classless flavor — styles plain semantic HTML with zero JavaScript dependencies.",
+  "type": "module",
+  "main": "dist/rukkit.css",
+  "exports": {
+    ".": {
+      "import": "./dist/rukkit.css"
+    },
+    "./dist/*": "./dist/*"
+  },
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
+  "keywords": [
+    "css",
+    "classless",
+    "semantic",
+    "html",
+    "ui",
+    "design-system",
+    "editorial",
+    "typography",
+    "minimal"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/rukkit.git",
+    "directory": "packages/rukkit"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/rukkit/issues"
+  },
+  "homepage": "https://rukkit.design",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
